@@ -48,5 +48,11 @@ namespace BreadStore
         {
             CallUserConstrolFm(new ProductDateControl());
         }
+
+        private void btMenudash_Click(object sender, EventArgs e)
+        {
+            //sdsadsd
+            MessageBox.Show("hello");
+        }
     }
 }
