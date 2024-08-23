@@ -1,4 +1,5 @@
-﻿using Guna.UI2.WinForms;
+﻿using BreadStore.Classes;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,7 +32,7 @@ namespace BreadStore
                 btnMenuDrop.FillColor = Color.Linen;
                 btnMenuDrop.ForeColor = Color.DarkGray;
                 btnMenuDrop.CustomImages.Image = Properties.Resources.Collapse_Arrow;
-                btnMenuStore.Checked = false;
+                btn_store.Checked = false;
                 btnMenuReport.Checked = false;
                 btnMenuAbout.Checked = false;
                 btnMenuSetting.Checked = false;
@@ -42,7 +43,7 @@ namespace BreadStore
                 CloseSubCategory(ShowpanelCate,btnSubBreadCate,
                   btnsubCakeCate, btnMenuCategory,PanelSubMenuCategory);
                 CloseSubReport(Showpanelreport, btnDaySubRepo, btnWeekSubRep, btnMonthSubRep, btnMenuReport, PanelSubMEnuReport);
-                btnMenuStore.Checked = true;
+                btn_store.Checked = true;
             }
         }
         private void CloseSubReport(Boolean showPanel, Guna2Button btnSubMenu1, Guna2Button btnSubMenu2, Guna2Button btnSubMenu3, Guna2Button btnMenuDown, Guna2Panel paneSubMenu)
@@ -83,7 +84,7 @@ namespace BreadStore
         }
         private void BreadStoreMainForm_Load(object sender, EventArgs e)
         {
-            
+            user_label.Text = Mainclass.USER;
         }
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)

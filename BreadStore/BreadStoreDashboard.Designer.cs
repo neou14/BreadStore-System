@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_about = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_user = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_pos = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_suplier = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_table = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btMenudash = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_product = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_category = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_dashboard = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.user_label = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.PanelShowMenu = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -52,15 +52,15 @@
             this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2Panel1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Panel1.Controls.Add(this.guna2Button7);
-            this.guna2Panel1.Controls.Add(this.guna2Button5);
-            this.guna2Panel1.Controls.Add(this.guna2Button4);
-            this.guna2Panel1.Controls.Add(this.guna2Button3);
-            this.guna2Panel1.Controls.Add(this.guna2Button8);
+            this.guna2Panel1.Controls.Add(this.btn_about);
+            this.guna2Panel1.Controls.Add(this.btn_user);
+            this.guna2Panel1.Controls.Add(this.btn_pos);
+            this.guna2Panel1.Controls.Add(this.btn_suplier);
+            this.guna2Panel1.Controls.Add(this.btn_table);
             this.guna2Panel1.Controls.Add(this.guna2Button6);
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.btMenudash);
+            this.guna2Panel1.Controls.Add(this.btn_product);
+            this.guna2Panel1.Controls.Add(this.btn_category);
+            this.guna2Panel1.Controls.Add(this.btn_dashboard);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(0);
@@ -68,131 +68,131 @@
             this.guna2Panel1.Size = new System.Drawing.Size(257, 715);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2Button7
+            // btn_about
             // 
-            this.guna2Button7.Animated = true;
-            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button7.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button7.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button7.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Image = global::BreadStore.Properties.Resources.About1;
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button7.Location = new System.Drawing.Point(0, 563);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button7.TabIndex = 13;
-            this.guna2Button7.Text = "About";
-            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_about.Animated = true;
+            this.btn_about.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_about.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_about.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_about.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_about.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_about.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_about.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_about.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_about.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_about.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_about.ForeColor = System.Drawing.Color.White;
+            this.btn_about.Image = global::BreadStore.Properties.Resources.About1;
+            this.btn_about.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_about.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_about.Location = new System.Drawing.Point(0, 563);
+            this.btn_about.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_about.Name = "btn_about";
+            this.btn_about.Size = new System.Drawing.Size(257, 45);
+            this.btn_about.TabIndex = 13;
+            this.btn_about.Text = "About";
+            this.btn_about.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button5
+            // btn_user
             // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button5.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button5.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button5.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Image = global::BreadStore.Properties.Resources.name1;
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button5.Location = new System.Drawing.Point(0, 518);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button5.TabIndex = 12;
-            this.guna2Button5.Text = "Users";
-            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_user.Animated = true;
+            this.btn_user.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_user.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_user.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_user.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_user.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_user.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_user.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_user.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_user.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_user.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_user.ForeColor = System.Drawing.Color.White;
+            this.btn_user.Image = global::BreadStore.Properties.Resources.name1;
+            this.btn_user.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_user.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_user.Location = new System.Drawing.Point(0, 518);
+            this.btn_user.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_user.Name = "btn_user";
+            this.btn_user.Size = new System.Drawing.Size(257, 45);
+            this.btn_user.TabIndex = 12;
+            this.btn_user.Text = "Users";
+            this.btn_user.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button4
+            // btn_pos
             // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button4.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button4.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button4.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Image = global::BreadStore.Properties.Resources.News11;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button4.Location = new System.Drawing.Point(0, 473);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button4.TabIndex = 11;
-            this.guna2Button4.Text = "Invoice";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_pos.Animated = true;
+            this.btn_pos.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_pos.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_pos.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_pos.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_pos.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_pos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_pos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_pos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_pos.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_pos.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_pos.ForeColor = System.Drawing.Color.White;
+            this.btn_pos.Image = global::BreadStore.Properties.Resources.News11;
+            this.btn_pos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_pos.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_pos.Location = new System.Drawing.Point(0, 473);
+            this.btn_pos.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_pos.Name = "btn_pos";
+            this.btn_pos.Size = new System.Drawing.Size(257, 45);
+            this.btn_pos.TabIndex = 11;
+            this.btn_pos.Text = "POS";
+            this.btn_pos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button3
+            // btn_suplier
             // 
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button3.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button3.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Image = global::BreadStore.Properties.Resources.Supplier;
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button3.Location = new System.Drawing.Point(0, 428);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button3.TabIndex = 10;
-            this.guna2Button3.Text = "Supplier";
-            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_suplier.Animated = true;
+            this.btn_suplier.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_suplier.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_suplier.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_suplier.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_suplier.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_suplier.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_suplier.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_suplier.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_suplier.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_suplier.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_suplier.ForeColor = System.Drawing.Color.White;
+            this.btn_suplier.Image = global::BreadStore.Properties.Resources.Supplier;
+            this.btn_suplier.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_suplier.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_suplier.Location = new System.Drawing.Point(0, 428);
+            this.btn_suplier.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_suplier.Name = "btn_suplier";
+            this.btn_suplier.Size = new System.Drawing.Size(257, 45);
+            this.btn_suplier.TabIndex = 10;
+            this.btn_suplier.Text = "Supplier";
+            this.btn_suplier.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // guna2Button8
+            // btn_table
             // 
-            this.guna2Button8.Animated = true;
-            this.guna2Button8.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button8.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button8.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button8.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Image = global::BreadStore.Properties.Resources.Calendar;
-            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button8.Location = new System.Drawing.Point(0, 383);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button8.TabIndex = 9;
-            this.guna2Button8.Text = "Product Date";
-            this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+            this.btn_table.Animated = true;
+            this.btn_table.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_table.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_table.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_table.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_table.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_table.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_table.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_table.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_table.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_table.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_table.ForeColor = System.Drawing.Color.White;
+            this.btn_table.Image = global::BreadStore.Properties.Resources.Calendar;
+            this.btn_table.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_table.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_table.Location = new System.Drawing.Point(0, 383);
+            this.btn_table.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_table.Name = "btn_table";
+            this.btn_table.Size = new System.Drawing.Size(257, 45);
+            this.btn_table.TabIndex = 9;
+            this.btn_table.Text = "Table";
+            this.btn_table.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_table.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // guna2Button6
             // 
@@ -218,88 +218,88 @@
             this.guna2Button6.TabIndex = 7;
             this.guna2Button6.Text = "Logout";
             // 
-            // guna2Button2
+            // btn_product
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button2.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::BreadStore.Properties.Resources.Products_Pile;
-            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(0, 338);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button2.TabIndex = 3;
-            this.guna2Button2.Text = "Products";
-            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.btn_product.Animated = true;
+            this.btn_product.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_product.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_product.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_product.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_product.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_product.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_product.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_product.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_product.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_product.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_product.ForeColor = System.Drawing.Color.White;
+            this.btn_product.Image = global::BreadStore.Properties.Resources.Products_Pile;
+            this.btn_product.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_product.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_product.Location = new System.Drawing.Point(0, 338);
+            this.btn_product.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_product.Name = "btn_product";
+            this.btn_product.Size = new System.Drawing.Size(257, 45);
+            this.btn_product.TabIndex = 3;
+            this.btn_product.Text = "Products";
+            this.btn_product.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_product.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // guna2Button1
+            // btn_category
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button1.FillColor = System.Drawing.Color.DodgerBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::BreadStore.Properties.Resources.Customer;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(0, 293);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(257, 45);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Customer";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btn_category.Animated = true;
+            this.btn_category.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_category.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_category.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_category.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_category.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_category.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_category.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_category.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_category.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_category.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_category.ForeColor = System.Drawing.Color.White;
+            this.btn_category.Image = global::BreadStore.Properties.Resources.Customer;
+            this.btn_category.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_category.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_category.Location = new System.Drawing.Point(0, 293);
+            this.btn_category.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_category.Name = "btn_category";
+            this.btn_category.Size = new System.Drawing.Size(257, 45);
+            this.btn_category.TabIndex = 2;
+            this.btn_category.Text = "Category";
+            this.btn_category.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_category.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // btMenudash
+            // btn_dashboard
             // 
-            this.btMenudash.Animated = true;
-            this.btMenudash.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btMenudash.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.btMenudash.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.btMenudash.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btMenudash.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btMenudash.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btMenudash.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btMenudash.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btMenudash.FillColor = System.Drawing.Color.DodgerBlue;
-            this.btMenudash.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.btMenudash.ForeColor = System.Drawing.Color.White;
-            this.btMenudash.Image = global::BreadStore.Properties.Resources.Dashboard_Layout1;
-            this.btMenudash.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btMenudash.ImageSize = new System.Drawing.Size(30, 30);
-            this.btMenudash.Location = new System.Drawing.Point(0, 248);
-            this.btMenudash.Margin = new System.Windows.Forms.Padding(0);
-            this.btMenudash.Name = "btMenudash";
-            this.btMenudash.Size = new System.Drawing.Size(257, 45);
-            this.btMenudash.TabIndex = 1;
-            this.btMenudash.Text = "Dashboard";
-            this.btMenudash.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btMenudash.Click += new System.EventHandler(this.btMenudash_Click);
+            this.btn_dashboard.Animated = true;
+            this.btn_dashboard.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_dashboard.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_dashboard.CheckedState.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.btn_dashboard.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dashboard.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_dashboard.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_dashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_dashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_dashboard.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_dashboard.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_dashboard.ForeColor = System.Drawing.Color.White;
+            this.btn_dashboard.Image = global::BreadStore.Properties.Resources.Dashboard_Layout1;
+            this.btn_dashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_dashboard.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_dashboard.Location = new System.Drawing.Point(0, 248);
+            this.btn_dashboard.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_dashboard.Name = "btn_dashboard";
+            this.btn_dashboard.Size = new System.Drawing.Size(257, 45);
+            this.btn_dashboard.TabIndex = 1;
+            this.btn_dashboard.Text = "Dashboard";
+            this.btn_dashboard.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_dashboard.Click += new System.EventHandler(this.btMenudash_Click);
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2Panel2.Controls.Add(this.user_label);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(0);
@@ -319,18 +319,18 @@
             this.guna2CirclePictureBox1.TabIndex = 1;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
-            // guna2HtmlLabel1
+            // user_label
             // 
-            this.guna2HtmlLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.user_label.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(78, 207);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(93, 24);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Username";
+            this.user_label.BackColor = System.Drawing.Color.Transparent;
+            this.user_label.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_label.ForeColor = System.Drawing.Color.White;
+            this.user_label.Location = new System.Drawing.Point(103, 207);
+            this.user_label.Name = "user_label";
+            this.user_label.Size = new System.Drawing.Size(71, 19);
+            this.user_label.TabIndex = 0;
+            this.user_label.Text = "Username";
             // 
             // PanelShowMenu
             // 
@@ -345,7 +345,7 @@
             // 
             // BreadStoreDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(1376, 716);
@@ -370,16 +370,16 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel user_label;
         private Guna.UI2.WinForms.Guna2Panel PanelShowMenu;
-        private Guna.UI2.WinForms.Guna2Button btMenudash;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_dashboard;
+        private Guna.UI2.WinForms.Guna2Button btn_product;
+        private Guna.UI2.WinForms.Guna2Button btn_category;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btn_table;
+        private Guna.UI2.WinForms.Guna2Button btn_about;
+        private Guna.UI2.WinForms.Guna2Button btn_user;
+        private Guna.UI2.WinForms.Guna2Button btn_pos;
+        private Guna.UI2.WinForms.Guna2Button btn_suplier;
     }
 }

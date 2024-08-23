@@ -41,9 +41,9 @@
             this.btnsubCakeCate = new Guna.UI2.WinForms.Guna2Button();
             this.btnSubBreadCate = new Guna.UI2.WinForms.Guna2Button();
             this.btnMenuCategory = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMenuStore = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_store = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.user_label = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnMenuLogout = new Guna.UI2.WinForms.Guna2Button();
@@ -73,7 +73,7 @@
             this.PaneMenu.Controls.Add(this.btnMenuReport);
             this.PaneMenu.Controls.Add(this.PanelSubMenuCategory);
             this.PaneMenu.Controls.Add(this.btnMenuCategory);
-            this.PaneMenu.Controls.Add(this.btnMenuStore);
+            this.PaneMenu.Controls.Add(this.btn_store);
             this.PaneMenu.Controls.Add(this.guna2Panel3);
             this.PaneMenu.Controls.Add(this.guna2HtmlLabel2);
             this.PaneMenu.Controls.Add(this.btnMenuLogout);
@@ -331,35 +331,35 @@
             this.btnMenuCategory.CheckedChanged += new System.EventHandler(this.btnMenuCategory_CheckedChanged);
             this.btnMenuCategory.Click += new System.EventHandler(this.btnMenuCategory_Click);
             // 
-            // btnMenuStore
+            // btn_store
             // 
-            this.btnMenuStore.Animated = true;
-            this.btnMenuStore.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnMenuStore.Checked = true;
-            this.btnMenuStore.CheckedState.FillColor = System.Drawing.Color.Linen;
-            this.btnMenuStore.CheckedState.ForeColor = System.Drawing.Color.DimGray;
-            this.btnMenuStore.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMenuStore.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMenuStore.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMenuStore.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMenuStore.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMenuStore.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMenuStore.FillColor = System.Drawing.Color.DarkOrange;
-            this.btnMenuStore.Font = new System.Drawing.Font("Century Gothic", 10.8F);
-            this.btnMenuStore.ForeColor = System.Drawing.Color.White;
-            this.btnMenuStore.Image = global::BreadStore.Properties.Resources.Online_Store;
-            this.btnMenuStore.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMenuStore.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnMenuStore.Location = new System.Drawing.Point(20, 186);
-            this.btnMenuStore.Name = "btnMenuStore";
-            this.btnMenuStore.Size = new System.Drawing.Size(202, 43);
-            this.btnMenuStore.TabIndex = 7;
-            this.btnMenuStore.Text = "Store";
-            this.btnMenuStore.Click += new System.EventHandler(this.btnMenuStore_Click);
+            this.btn_store.Animated = true;
+            this.btn_store.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btn_store.Checked = true;
+            this.btn_store.CheckedState.FillColor = System.Drawing.Color.Linen;
+            this.btn_store.CheckedState.ForeColor = System.Drawing.Color.DimGray;
+            this.btn_store.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_store.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_store.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_store.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_store.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_store.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_store.FillColor = System.Drawing.Color.DarkOrange;
+            this.btn_store.Font = new System.Drawing.Font("Century Gothic", 10.8F);
+            this.btn_store.ForeColor = System.Drawing.Color.White;
+            this.btn_store.Image = global::BreadStore.Properties.Resources.Online_Store;
+            this.btn_store.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_store.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_store.Location = new System.Drawing.Point(20, 186);
+            this.btn_store.Name = "btn_store";
+            this.btn_store.Size = new System.Drawing.Size(202, 43);
+            this.btn_store.TabIndex = 7;
+            this.btn_store.Text = "Store";
+            this.btn_store.Click += new System.EventHandler(this.btnMenuStore_Click);
             // 
             // guna2Panel3
             // 
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2Panel3.Controls.Add(this.user_label);
             this.guna2Panel3.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.Location = new System.Drawing.Point(20, 0);
@@ -368,16 +368,16 @@
             this.guna2Panel3.Size = new System.Drawing.Size(202, 186);
             this.guna2Panel3.TabIndex = 1;
             // 
-            // guna2HtmlLabel1
+            // user_label
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(10, 134);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(161, 24);
-            this.guna2HtmlLabel1.TabIndex = 3;
-            this.guna2HtmlLabel1.Text = "Username Display";
+            this.user_label.BackColor = System.Drawing.Color.Transparent;
+            this.user_label.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_label.ForeColor = System.Drawing.Color.Black;
+            this.user_label.Location = new System.Drawing.Point(72, 133);
+            this.user_label.Name = "user_label";
+            this.user_label.Size = new System.Drawing.Size(71, 19);
+            this.user_label.TabIndex = 3;
+            this.user_label.Text = "Username ";
             // 
             // guna2CirclePictureBox1
             // 
@@ -458,7 +458,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.Window;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(72, 10);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(154, 34);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(126, 28);
             this.guna2HtmlLabel3.TabIndex = 2;
             this.guna2HtmlLabel3.Text = "Bread Store";
             // 
@@ -488,7 +488,7 @@
             // 
             // BreadStoreMainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(1400, 900);
@@ -525,9 +525,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel user_label;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2Button btnMenuStore;
+        private Guna.UI2.WinForms.Guna2Button btn_store;
         private Guna.UI2.WinForms.Guna2Button btnMenuCategory;
         private Guna.UI2.WinForms.Guna2Panel PanelSubMenuCategory;
         private Guna.UI2.WinForms.Guna2Button btnsubCakeCate;

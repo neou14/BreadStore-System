@@ -27,8 +27,21 @@ namespace BreadStore.Classes
             if (dt.Rows.Count > 0)
             {
                 isValid = true;
+                USER = dt.Rows[0]["u_name"].ToString();
             }
             return isValid;
+            
         }
+
+        //Create Property for username
+
+        public static string user;
+        public static string USER
+        {
+            get { return user; }
+            private set { user = value; }
+        }
+
+       
     }
 }

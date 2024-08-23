@@ -41,7 +41,7 @@ namespace BreadStore
                 else
                 {
                     this.Hide();
-                    BreadStoreMainForm form = new BreadStoreMainForm();
+                    BreadStoreDashboard form = new BreadStoreDashboard();
                     form.Show();
                 }
                 
