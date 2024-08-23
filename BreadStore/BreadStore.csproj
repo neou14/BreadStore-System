@@ -77,6 +77,7 @@
     <Compile Include="BreadStoreDashboard.Designer.cs">
       <DependentUpon>BreadStoreDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Mainclass.cs" />
     <Compile Include="ControlForm\CustomerForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
